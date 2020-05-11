@@ -1,7 +1,7 @@
 # Run by e.g.: sudo sh install-ansible...
-apt-get update
-apt-get install --yes software-properties-common
-apt-add-repository --yes --update ppa:ansible/ansible
-apt-get --yes install ansible
+apt update
+apt install --yes software-properties-common
+apt repository --yes -u ppa:ansible/ansible
+apt --yes install ansible
 ansible --version
 
