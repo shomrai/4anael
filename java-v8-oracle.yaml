@@ -1,9 +1,5 @@
 #  Options: install/uninstall/check
-#
-#  Install:   ansible-playbook   oracle-java8.yaml --tags=install
-#  Uninstall: ansible-playbook   oracle-java8.yaml --tags=uninstall
-#  Check:     ansible-playbook -v  oracle-java8.yaml --tags=check
-#                             ====
+#  sudo ansible-playbook java-v8-oracle.yaml --tags=un/install/check
 
 ---
 
