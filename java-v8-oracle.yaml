@@ -1,15 +1,14 @@
-#  Options: install/uninstall/check
-#  sudo ansible-playbook java-v8-oracle.yaml --tags=un/install/check
+# Options: install/uninstall/check
+# sudo ansible-playbook java-v8-oracle.yaml --tags=un/install/check
 
 ---
-
 - hosts: localhost
   connection: local
   become: true
   vars:
     JDK:
       Install_Path: '/opt/'
-      Ver: 'jdk1.8.0_251'
+      Ver: 'jdk1.8.0_251'                  # VERSION 8
 
   tasks:
   - name: Install Oracle Java
@@ -41,7 +40,7 @@
     tags: 
       - uninstall
 
-  - name: Check Java
+  - name: Check Linux and Java Versions
     block:
     - name: 'Linux distro:'
       debug: msg="{{ansible_distribution}}"
@@ -51,4 +50,3 @@
     - debug: msg="{{jdkver.stderr}}"
     tags:
       - check
-
