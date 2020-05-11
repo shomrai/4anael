@@ -1,3 +1,4 @@
+# Run by e.g.: sudo sh install-ansible...
 apt-get update
 apt-get install --yes software-properties-common
 apt-add-repository --yes --update ppa:ansible/ansible
