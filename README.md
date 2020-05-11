@@ -6,6 +6,9 @@ For OS-s:
 - Windows
 - Mac
 
+Prerequisite:
+ - Python (latest) + pip?
+ 
   Do
   - Languages:
     - Java (version 8)
