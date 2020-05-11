@@ -2,8 +2,8 @@
 # Playing with Ansible plays
 
 For OS-s:
+- Linux/Ubuntu
 - Windows
-- Linux
 - Mac
 
   Do
