@@ -11,6 +11,7 @@ For OS-s:
     - Java (version 8)
     - NodeJS (version 12)
     - Python (latest)
+    - Git
 
   - DB-s:
     - MySQL workbench
