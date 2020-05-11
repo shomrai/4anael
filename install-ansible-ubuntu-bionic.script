@@ -6,6 +6,6 @@ apt --yes install ansible
 ansible --version
 
 apt install python-argcomplete
-# sudo activate-global-python-argcomplete IS NOT WORKING! use the below instead:
-python3 -m pip install argcomplete
+# sudo activate-global-python-argcomplete IS NOT WORKING! use the below instead with sudo -H!!!
+# python3 -m pip install argcomplete
 
